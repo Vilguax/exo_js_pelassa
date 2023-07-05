@@ -1,3 +1,3 @@
-var nom = prompt("Quel est votre nom ?")
+var nom = prompt("Quel est votre nom ?");
 
-console.log("Bonjour " + nom + " !") 
+console.log("Bonjour " + nom + " !");
