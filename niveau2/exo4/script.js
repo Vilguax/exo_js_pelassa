@@ -1,4 +1,3 @@
-//fonction qui prend en paramètre une chaine de caractère et qui reverse les mots de cette chaines
 function ReverseStr(str) {
     var strArray = str.split(" ");
     var reverseStrArray = strArray.reverse();
