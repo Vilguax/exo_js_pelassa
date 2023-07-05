@@ -1,4 +1,4 @@
-function evaluerExpression(expression) {
+function expressionMath(expression) {
     var resultat = eval(expression);
     if (isFinite(resultat)) {
         return resultat;
@@ -8,5 +8,5 @@ function evaluerExpression(expression) {
   }
 
 var expression = "2 + 3 * 4";
-var resultat = evaluerExpression(expression);
+var resultat = expressionMath(expression);
 console.log(resultat);
